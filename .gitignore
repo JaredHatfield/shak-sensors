@@ -4,7 +4,11 @@ application/config/config.php
 application/config/database.php
 system
 user_guide
+vendor
 index.php
+
+composer.lock
+composer.phar
 
 application/cache/*
 !application/cache/index.html
