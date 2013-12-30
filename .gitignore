@@ -2,11 +2,9 @@
 
 application/config/config.php
 application/config/aws.php
-application/config/database.php
 system
 user_guide
 vendor
-index.php
 
 composer.lock
 composer.phar

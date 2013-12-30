@@ -1,0 +1,16 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+/*
+|--------------------------------------------------------------------------
+| AWS Credentials
+|--------------------------------------------------------------------------
+|
+| Credentials used to access AWS.
+|
+| Rename this file to aws.php and fill in the following values.
+|
+*/
+$config['aws_region'] = 'us-east-1';
+$config['aws_access'] = 'MY_AWS_ACCESS_KEY';
+$config['aws_secret'] = 'MY_AWS_SECRET_KEY';
+$config['sensors_topic'] = 'MY_AWS_SNS_TOPIC';

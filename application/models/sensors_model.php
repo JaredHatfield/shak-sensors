@@ -1,7 +1,5 @@
 <?php
 
-require_once 'vendor/autoload.php';
-
 use Aws\Sns\SnsClient;
 use Aws\Sns\Exception\SnsException;
 
