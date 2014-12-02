@@ -22,7 +22,7 @@ class Api extends CI_Controller {
 			}
 			
 			// Parse the JSON
-			$jsonObject = json_decode($json, false, 2);
+			$jsonObject = json_decode($json, false, 20);
 			if($jsonObject == null)
 			{
 				show_error('error', 400);
